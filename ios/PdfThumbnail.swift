@@ -1,5 +1,6 @@
 import PDFKit
 
+@available(iOS 11.0, *)
 @objc(PdfThumbnail)
 class PdfThumbnail: NSObject {
 
@@ -14,13 +15,8 @@ class PdfThumbnail: NSObject {
     }
     
     func getOutputFilename(filePath: String, page: Int) -> String {
-        let components = filePath.components(separatedBy: "/")
         var prefix: String
-        if let origionalFileName = components.last {
-            prefix = origionalFileName.replacingOccurrences(of: ".", with: "-")
-        } else {
-            prefix = "pdf"
-        }
+        prefix = UUID().uuidString
         let random = Int.random(in: 0 ..< Int.max)
         return "\(prefix)-thumbnail-\(page)-\(random).jpg"
     }
