@@ -1,6 +1,6 @@
 {
-  "name": "react-native-pdf-thumbnail",
-  "version": "1.2.0",
+  "name": "rn-pdf-thumbnail",
+  "version": "1.2.2",
   "description": "Generate thumbnail for PDF files",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -37,18 +37,17 @@
     "pdf",
     "thumbnail"
   ],
-  "repository": "https://github.com/songsterq/react-native-pdf-thumbnail",
-  "author": "Song Qian <songsterq@gmail.com> (https://github.com/songsterq)",
+  "repository": "https://github.com/owlstack-it/react-native-pdf-thumbnail",
+  "author": "Song Qian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/songsterq/react-native-pdf-thumbnail/issues"
+    "url": "https://github.com/owlstack-it/react-native-pdf-thumbnail/issues"
   },
-  "homepage": "https://github.com/songsterq/react-native-pdf-thumbnail#readme",
+  "homepage": "https://github.com/owlstack-it/react-native-pdf-thumbnail#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@arkweid/lefthook": "^0.7.7",
     "@commitlint/config-conventional": "^17.0.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
